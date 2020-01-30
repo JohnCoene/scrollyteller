@@ -1,0 +1,23 @@
+Package: scrollyteller
+Title: Utilities for 'Scrollytelling' in 'Shiny'
+Version: 0.0.1
+Authors@R: 
+    person(given = "John",
+           family = "Coene",
+           role = c("aut", "cre"),
+           email = "jcoenep@gmail.com")
+Description: Utilities for scrollytelling in 'Shiny'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports:
+    cli,
+    crayon,
+    shticky,
+    rstudioapi,
+    waypointer
+Remotes:
+    RinteRface/waypointer,
+    JohnCoene/shticky
+RoxygenNote: 7.0.2
