@@ -7,6 +7,8 @@
 #' 
 #' @export
 use_scrollyteller <- function(){
-  use_shticky()
-  use_waypointer()
+  shiny::tagList(
+    use_shticky(),
+    use_waypointer()
+  )
 }
